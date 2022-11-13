@@ -10,6 +10,8 @@ import Home from './pages/Home';
 import UseState from './pages/UseState';
 import UseEffect from './pages/UseEffect';
 import UseContext from './pages/UseContext';
+import UseReducer from './pages/UseReducer';
+import UseRef from './pages/UseRef';
 
 const sideItems = [
   {
@@ -27,6 +29,14 @@ const sideItems = [
   {
     path: 'useContext',
     text: 'useContext'
+  },
+  {
+    path: 'useReducer',
+    text: 'useReducer'
+  },
+  {
+    path: 'useRef',
+    text: 'useRef'
   }
 ]
 
@@ -42,6 +52,8 @@ function App() {
               <Route path="useState" element={<UseState/>}/>
               <Route path="useEffect" element={<UseEffect/>}/>
               <Route path="useContext" element={<UseContext/>}/>
+              <Route path="useReducer" element={<UseReducer/>}/>
+              <Route path="useRef" element={<UseRef/>}/>
             </Route>
           </Routes>
         </Router>

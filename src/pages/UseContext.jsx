@@ -269,8 +269,6 @@ const ComponentEx = () => {
   )
 }
 
-
-
 const UseContext = () => {
   return (
     <>

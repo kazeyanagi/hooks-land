@@ -358,8 +358,8 @@ const UseState = () => {
             <Typography variant="h4">要件</Typography>
             <ul>
               <li><Typography>フルーツと個数を選択し、ADDボタンを押すとhistoriesに合計金額が追加される</Typography></li>
-              <li><Typography>hisotiesに追加される値が、pokectを超えていたら追加しない</Typography></li>
-              <li><Typography>hisotiesに追加された値分、pocketから値を引く</Typography></li>
+              <li><Typography>historiesに追加される値が、pokectを超えていたら追加しない</Typography></li>
+              <li><Typography>historiesに追加された値分、pocketから値を引く</Typography></li>
             </ul>
             <ComponentEx2/>
           </SubSection>
